@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body {
+      background-color: #000000;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    img {
+      border: 6px solid #28a745;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      height: auto;
+    }
+
+    h3 {
+      margin-top: 25px;
+      color: #1d3557;
+      font-size: 24px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h2>Prediction Result</h2>
+  <img src="{{ image_path }}" alt="Uploaded Butterfly Image" width="300"><br><br>
+  <h3>Predicted Butterfly: {{ prediction }}</h3>
+  <a href="/input">Predict Another</a>
+</body>
+</html>
