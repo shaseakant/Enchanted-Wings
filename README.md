@@ -18,6 +18,7 @@ Education & Citizen Science: Assists hobbyists, students, and nature enthusiasts
 Museums & Entomology Collections: Digitally organizes butterfly specimens, verifies species in historical image archives
 
 
+
 • Technologies Used
 
 TensorFlow 2.14 / Keras 2.14
@@ -32,12 +33,17 @@ HTML & CSS for the user interface
 
 
 • Results
+
+
 The model achieves strong accuracy using ResNet50 and is capable of classifying butterfly species such as: Monarch, Swallowtail, Painted Lady, Blue Morpho, and more, with high confidence and minimal error.
 
 • Dataset
+
+
 Butterfly Species Dataset from Kaggle:https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification
 Butterfly Image Classification (75 Classes)
 Contains labeled folders with butterfly images across 75 species, curated and organized for image classification tasks.
+
 
 • Future Scope
 
