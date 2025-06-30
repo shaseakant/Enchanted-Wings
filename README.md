@@ -2,34 +2,20 @@ Enchanted Wings: Marvels of Butterfly Species
 
 Enchanted Wings is a deep learning-based project designed to classify butterfly species based on their wing patterns, colors, and structures. It automates the visual identification process, supporting ecological research, species tracking, and biodiversity studies.
 
-Problem Statement
-
+• Problem Statement
 Manual identification of butterfly species is a time-consuming task requiring expert knowledge in entomology. Misidentification can hinder conservation efforts and data accuracy. Enchanted Wings solves this by using a CNN-based image classifier that automatically detects and classifies butterfly species from wing images.
 
-Real-World Applications
 
-Wildlife Research & Conservation
+• Real-World Applications
 
-Rapid species identification in the field
+Wildlife Research & Conservation: Rapid species identification in the field, supports biodiversity mapping, helps track endangered species
 
-Supports biodiversity mapping
+Education & Citizen Science: Assists hobbyists, students, and nature enthusiasts, encourages citizen science with AI-powered species recognition
 
-Helps track endangered species
-
-Education & Citizen Science
-
-Assists hobbyists, students, and nature enthusiasts
-
-Encourages citizen science with AI-powered species recognition
-
-Museums & Entomology Collections
-
-Digitally organizes butterfly specimens
-
-Verifies species in historical image archives
+Museums & Entomology Collections: Digitally organizes butterfly specimens, verifies species in historical image archives
 
 
-🛠 Technologies Used
+• Technologies Used
 
 TensorFlow 2.14 / Keras 2.14
 
@@ -42,31 +28,15 @@ Google Colab for model training
 HTML & CSS for the user interface
 
 
-📈 Results
+• Results
+The model achieves strong accuracy using ResNet50 and is capable of classifying butterfly species such as: Monarch, Swallowtail, Painted Lady, Blue Morpho, and more, with high confidence and minimal error.
 
-The model achieves strong accuracy using ResNet50, and is capable of classifying butterfly species such as:
+• Dataset
+Butterfly Species Dataset from Kaggle:https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification
+Butterfly Image Classification (75 Classes)
+Contains labeled folders with butterfly images across 75 species, curated and organized for image classification tasks.
 
-Monarch
-
-Swallowtail
-
-Painted Lady
-
-Blue Morpho
-...and more, with high confidence and minimal error.
-
-
-Dataset
-
-Butterfly Species Dataset from Kaggle: https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification
-
-Contains labeled folders with butterfly images across 75 species
-
-Curated and organized for image classification tasks
-
-
-
-Future Scope
+• Future Scope
 
 Add real-time camera prediction for field use
 
@@ -77,8 +47,6 @@ Add a user feedback loop for mislabeled species
 Upgrade model using EfficientNet, Vision Transformers, or YOLOv8
 
 Add geolocation tagging for habitat and conservation tracking
-
-
 
 
 
