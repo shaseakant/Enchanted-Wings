@@ -2,7 +2,10 @@ Enchanted Wings: Marvels of Butterfly Species
 
 Enchanted Wings is a deep learning-based project designed to classify butterfly species based on their wing patterns, colors, and structures. It automates the visual identification process, supporting ecological research, species tracking, and biodiversity studies.
 
+
 • Problem Statement
+
+
 Manual identification of butterfly species is a time-consuming task requiring expert knowledge in entomology. Misidentification can hinder conservation efforts and data accuracy. Enchanted Wings solves this by using a CNN-based image classifier that automatically detects and classifies butterfly species from wing images.
 
 
