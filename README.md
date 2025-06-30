@@ -3,10 +3,12 @@ Enchanted Wings: Marvels of Butterfly Species
 Enchanted Wings is a deep learning-based project designed to classify butterfly species based on their wing patterns, colors, and structures. It automates the visual identification process, supporting ecological research, species tracking, and biodiversity studies.
 
 
+
 • Problem Statement
 
 
 Manual identification of butterfly species is a time-consuming task requiring expert knowledge in entomology. Misidentification can hinder conservation efforts and data accuracy. Enchanted Wings solves this by using a CNN-based image classifier that automatically detects and classifies butterfly species from wing images.
+
 
 
 • Real-World Applications
@@ -16,6 +18,8 @@ Wildlife Research & Conservation: Rapid species identification in the field, sup
 Education & Citizen Science: Assists hobbyists, students, and nature enthusiasts, encourages citizen science with AI-powered species recognition
 
 Museums & Entomology Collections: Digitally organizes butterfly specimens, verifies species in historical image archives
+
+
 
 
 
@@ -32,10 +36,15 @@ Google Colab for model training
 HTML & CSS for the user interface
 
 
+
+
+
 • Results
 
 
 The model achieves strong accuracy using ResNet50 and is capable of classifying butterfly species such as: Monarch, Swallowtail, Painted Lady, Blue Morpho, and more, with high confidence and minimal error.
+
+
 
 • Dataset
 
@@ -43,6 +52,8 @@ The model achieves strong accuracy using ResNet50 and is capable of classifying 
 Butterfly Species Dataset from Kaggle:https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification
 Butterfly Image Classification (75 Classes)
 Contains labeled folders with butterfly images across 75 species, curated and organized for image classification tasks.
+
+
 
 
 • Future Scope
